@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["file:///b:/buildmotion/angular-module-starter/src/app/index.ts"],"names":[],"mappings":";;;;;AAAA,8CAAyC","sourcesContent":["export * from './starter/starter.module';\r\n"]}

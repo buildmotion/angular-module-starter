@@ -1,0 +1,27 @@
+{
+  "name": "StarterModule",
+  "version": "2.1.0",
+  "description": "A project for creating custom Angular modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildmotion/angular-module-starter.git"
+  },
+  "author": "Matt Vaughn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buildmotion/angular-module-starter/issues"
+  },
+  "homepage": "https://github.com/buildmotion/angular-module-starter#readme",
+  "devDependencies": {
+    "@angular/cli": "^1.3.2",
+    "@angular/common": "^4.4.0-RC.0",
+    "@angular/compiler": "^4.4.0-RC.0",
+    "@angular/compiler-cli": "^4.4.0-RC.0",
+    "@angular/core": "^4.4.0-RC.0",
+    "rxjs": "^5.0.1"
+  }
+}

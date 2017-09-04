@@ -176,9 +176,9 @@ You may need to update the ` project.name ` value to the name of the current mod
 By convention, Angular web applications use a specific folder structure. We also want to take advantage of the ` angular-cli ` tool to generate code for our project. Therefore, we will create a ` src\app ` folder structure for the Angular members of the project. 
 
 ### 7. Create index.ts File
-This file is really the most important element of the solution. It will you to publicly expose (can I say that in technical documentation?) or allow clients to find the specified module of the package - which is very important to Angular applications.
+This file is really the most important element of the solution. It will allow you to publicly expose (can I say that in technical documentation?) or allow clients to find the specified module of the package - which is very important to Angular applications.
 
-The only project member we need to expose is the module itself. We will update this 
+The only project member we need to expose is the module itself. The ` module ` will actually define what elements of the module are publicly visible - more on that later.
 
 ![](images/create-index-file.png)
 
@@ -193,8 +193,6 @@ example: ng generate module ngCommon
 ```
 
 ![](images/ng-generate-module.png)
-
-
 
 #### @NgModule
 We will use the @NgModule declaration to add imported items to the ` imports `, ` declarations `, and ` exports `
@@ -245,7 +243,7 @@ _Note: Later we will copy the ` package.json ` file to the output directory befo
 ```
 
 #### Export the Module :: index.ts
-Add an ` export ` for the module in the ` index.ts ` file. When the module is compile, this will create an ` index.js ` file that is referenced as the ` main ` value in the package.json file.
+Add an ` export ` for the module in the ` index.ts ` file. When the module project is compiled, this will create an ` index.js ` file that is referenced as the ` main ` value in the package.json file.
 
 ```javascript
 export * from './ng-common/ng-common.module';
