@@ -334,11 +334,11 @@ Use the information in this section if you building a _service module_ - a modul
 Each consumer of the service (most likely an Angular Component) will only have direct access to the service of the module. Access to things internal should not be allowed. For example, you do not want the components to directly interact with or have access to:
 
 * Business Providers
-* Business Actions
+* Business Actions*
 * Business Rules
 * Http Providers/Services that interact with the web services or Web APIs
 
-Our web team has current standards, patterns, and practices for implementing business logic in our Angular applications. With that said, there may be some things that you want to make publicly accessible 
+Our web team has current standards, patterns, and practices for implementing business logic in our Angular applications - we take advantage of the [angular-actions npm package](https://www.npmjs.com/package/angular-actions) along with the [angular-rules-engine](https://www.npmjs.com/package/angular-rules-engine). These packages elevate your business lgoic to the next level with a robust processing framwork for business logic, authorization, business rule process, data validation, and interaction with other services like Angular HTTP.  
 
 ### 10. Compiling and Publishing the Module
 We now have a module with something that can be reused - everyone wants the awesome ` HelloWorldComponent `, right? You get the point - you can now create as many reusable components as you want. 
