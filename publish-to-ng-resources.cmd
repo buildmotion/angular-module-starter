@@ -1,0 +1,1 @@
+XCOPY .\dist\*.* ..\ng-resources\StarterModule-2.1.1\ /S /I /F /R /Y

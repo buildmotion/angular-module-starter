@@ -2,9 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'hello-world',
-  template: `<p>
+  template: `<h2>Hello Shared Component</h2>
+<p>
   hello-world works!
-</p>`
+</p>
+`
 })
 export class HelloWorldComponent implements OnInit {
 

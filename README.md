@@ -1,5 +1,11 @@
+# Notes:
+
+[https://github.com/angular/angular-cli/issues/4447](https://github.com/angular/angular-cli/issues/4447)
+
 # angular-module-starter
 A starter-kit to create reusable Angular modules. Uses Angular CLI to create module, services, and components. You can use the start kit to quickly create a new Angular module project. If you want to create your own from scratch using Visual Studio Code with Angular CLI, use the instructions below. Enjoy your modules!
+
+![](images/custom-angular-modules-thumb.png)
 
 # How to Create a Custom Angular Module
 
@@ -133,7 +139,7 @@ There are quite a few compiler options available. Update the new ` tsconfig.json
 Since our module is for sharing common Angular components, we will install the following packages. Use the Powershell Terminal to run the following commands.
 
 ```
-npm install --save --save-dev rxjs@^5.0.1
+REM npm install --save --save-dev rxjs@^5.0.1
 npm install --save --save-dev @angular/cli@latest	
 npm install --save --save-dev @angular/core	
 npm install --save --save-dev @angular/common
@@ -150,6 +156,8 @@ Create/Add a new file called ` angular-cli.json ` in the root of the project fol
 
 You may need to update the ` project.name ` value to the name of the current module project you are working on. 
 
+Make sure to update the ` apps.root ` value to ` src/app `. 
+
 ```javascript
 {
     "project": {
@@ -160,7 +168,7 @@ You may need to update the ` project.name ` value to the name of the current mod
         {
             "tsconfig": "tsconfig.json",
             "mobile": false,
-            "root": "src",
+            "root": "src/app",
             "prefix": "app"
         }
     ],
