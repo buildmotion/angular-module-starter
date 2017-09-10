@@ -1,6 +1,15 @@
 # Notes:
 
 [https://github.com/angular/angular-cli/issues/4447](https://github.com/angular/angular-cli/issues/4447)
+[https://medium.com/@cyrilletuzi/how-to-build-and-publish-an-angular-module-7ad19c0b4464](https://medium.com/@cyrilletuzi/how-to-build-and-publish-an-angular-module-7ad19c0b4464)
+[https://medium.com/@isaacplmann/getting-your-angular-2-library-ready-for-aot-90d1347bcad](https://medium.com/@isaacplmann/getting-your-angular-2-library-ready-for-aot-90d1347bcad)
+[https://blog.angularindepth.com/making-your-angular-2-library-statically-analyzable-for-aot-e1c6f3ebedd5](https://blog.angularindepth.com/making-your-angular-2-library-statically-analyzable-for-aot-e1c6f3ebedd5)
+
+Need to use the ` ngc ` transpiler in order to be AOT and Angular 2 compatible
+
+```javascript
+ .\node_modules\.bin\ngc -p .\tsconfig-ngc.json
+ ```
 
 # angular-module-starter
 A starter-kit to create reusable Angular modules. Uses Angular CLI to create module, services, and components. You can use the start kit to quickly create a new Angular module project. If you want to create your own from scratch using Visual Studio Code with Angular CLI, use the instructions below. Enjoy your modules!

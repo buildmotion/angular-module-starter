@@ -6,8 +6,9 @@ var HelloWorldComponent = /** @class */ (function () {
     };
     HelloWorldComponent.decorators = [
         { type: Component, args: [{
-                    selector: 'hello-world',
-                    template: "<h2>Hello Shared Component</h2>\n<p>\n  hello-world works!\n</p>\n"
+                    selector: 'app-hello-world',
+                    templateUrl: './hello-world.component.html',
+                    styleUrls: ['./hello-world.component.css']
                 },] },
     ];
     /** @nocollapse */

@@ -6,28 +6,29 @@
  /* tslint:disable */
 
 
-import * as i0 from '@angular/core';
-import * as i1 from './hello-world.component';
-const styles_HelloWorldComponent:any[] = ([] as any[]);
-export const RenderType_HelloWorldComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,
+import * as i0 from './hello-world.component.css.shim.ngstyle';
+import * as i1 from '@angular/core';
+import * as i2 from './hello-world.component';
+const styles_HelloWorldComponent:any[] = [i0.styles];
+export const RenderType_HelloWorldComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,
     styles:styles_HelloWorldComponent,data:{}});
-export function View_HelloWorldComponent_0(_l:any):i0.ɵViewDefinition {
-  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'h2',([] as any[]),
+export function View_HelloWorldComponent_0(_l:any):i1.ɵViewDefinition {
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'h3',([] as any[]),
       (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i0.ɵted((null as any),['Hello Shared Component'])),(_l()(),i0.ɵted((null as any),
-      ['\n'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),
-      (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-      ['\n  hello-world works!\n'])),(_l()(),i0.ɵted((null as any),['\n']))],(null as any),
-      (null as any));
+      i1.ɵted((null as any),['Shared Hello World'])),(_l()(),i1.ɵted((null as any),
+      ['\n'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),
+      (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+      ['\n  hello-world works! with URL based references to HTML and CSS.\n'])),(_l()(),
+      i1.ɵted((null as any),['\n']))],(null as any),(null as any));
 }
-export function View_HelloWorldComponent_Host_0(_l:any):i0.ɵViewDefinition {
-  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'hello-world',
+export function View_HelloWorldComponent_Host_0(_l:any):i1.ɵViewDefinition {
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-hello-world',
       ([] as any[]),(null as any),(null as any),(null as any),View_HelloWorldComponent_0,
-      RenderType_HelloWorldComponent)),i0.ɵdid(114688,(null as any),0,i1.HelloWorldComponent,
+      RenderType_HelloWorldComponent)),i1.ɵdid(114688,(null as any),0,i2.HelloWorldComponent,
       ([] as any[]),(null as any),(null as any))],(_ck,_v) => {
     _ck(_v,1,0);
   },(null as any));
 }
-export const HelloWorldComponentNgFactory:i0.ComponentFactory<i1.HelloWorldComponent> = i0.ɵccf('hello-world',
-    i1.HelloWorldComponent,View_HelloWorldComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQjovYnVpbGRtb3Rpb24vYW5ndWxhci1tb2R1bGUtc3RhcnRlci9zcmMvYXBwL3N0YXJ0ZXIvaGVsbG8td29ybGQvaGVsbG8td29ybGQuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0I6L2J1aWxkbW90aW9uL2FuZ3VsYXItbW9kdWxlLXN0YXJ0ZXIvc3JjL2FwcC9zdGFydGVyL2hlbGxvLXdvcmxkL2hlbGxvLXdvcmxkLmNvbXBvbmVudC50cyIsIm5nOi8vL0I6L2J1aWxkbW90aW9uL2FuZ3VsYXItbW9kdWxlLXN0YXJ0ZXIvc3JjL2FwcC9zdGFydGVyL2hlbGxvLXdvcmxkL2hlbGxvLXdvcmxkLmNvbXBvbmVudC50cy5IZWxsb1dvcmxkQ29tcG9uZW50Lmh0bWwiLCJuZzovLy9COi9idWlsZG1vdGlvbi9hbmd1bGFyLW1vZHVsZS1zdGFydGVyL3NyYy9hcHAvc3RhcnRlci9oZWxsby13b3JsZC9oZWxsby13b3JsZC5jb21wb25lbnQudHMuSGVsbG9Xb3JsZENvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxoMj5IZWxsbyBTaGFyZWQgQ29tcG9uZW50PC9oMj5cbjxwPlxuICBoZWxsby13b3JsZCB3b3JrcyFcbjwvcD5cbiIsIjxoZWxsby13b3JsZD48L2hlbGxvLXdvcmxkPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7O29CQ0FBO01BQUEsd0VBQUk7YUFBQSw0Q0FBMkI7TUFBQSxTQUMvQjtNQUFBLDBEQUFHO01BQUEsK0JBRUM7Ozs7b0JDSEo7TUFBQTtvQ0FBQSxVQUFBO01BQUE7SUFBQTs7OzsifQ==
+export const HelloWorldComponentNgFactory:i1.ComponentFactory<i2.HelloWorldComponent> = i1.ɵccf('app-hello-world',
+    i2.HelloWorldComponent,View_HelloWorldComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQjovYnVpbGRtb3Rpb24vYW5ndWxhci1tb2R1bGUtc3RhcnRlci9zcmMvYXBwL3N0YXJ0ZXIvaGVsbG8td29ybGQvaGVsbG8td29ybGQuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0I6L2J1aWxkbW90aW9uL2FuZ3VsYXItbW9kdWxlLXN0YXJ0ZXIvc3JjL2FwcC9zdGFydGVyL2hlbGxvLXdvcmxkL2hlbGxvLXdvcmxkLmNvbXBvbmVudC50cyIsIm5nOi8vL0I6L2J1aWxkbW90aW9uL2FuZ3VsYXItbW9kdWxlLXN0YXJ0ZXIvc3JjL2FwcC9zdGFydGVyL2hlbGxvLXdvcmxkL2hlbGxvLXdvcmxkLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQjovYnVpbGRtb3Rpb24vYW5ndWxhci1tb2R1bGUtc3RhcnRlci9zcmMvYXBwL3N0YXJ0ZXIvaGVsbG8td29ybGQvaGVsbG8td29ybGQuY29tcG9uZW50LnRzLkhlbGxvV29ybGRDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8aDM+U2hhcmVkIEhlbGxvIFdvcmxkPC9oMz5cbjxwPlxuICBoZWxsby13b3JsZCB3b3JrcyEgd2l0aCBVUkwgYmFzZWQgcmVmZXJlbmNlcyB0byBIVE1MIGFuZCBDU1MuXG48L3A+XG4iLCI8YXBwLWhlbGxvLXdvcmxkPjwvYXBwLWhlbGxvLXdvcmxkPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7OztvQkNBQTtNQUFBLHdFQUFJO2FBQUEsd0NBQXVCO01BQUEsU0FDM0I7TUFBQSwwREFBRztNQUFBLDBFQUVDO2FBQUE7OztvQkNISjtNQUFBO29DQUFBLFVBQUE7TUFBQTtJQUFBOzs7OyJ9
