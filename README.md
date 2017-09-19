@@ -14,7 +14,7 @@ Need to use the ` ngc ` transpiler in order to be AOT and Angular 2 compatible
 # angular-module-starter
 A starter-kit to create reusable Angular modules. Uses Angular CLI to create module, services, and components. You can use the start kit to quickly create a new Angular module project. If you want to create your own from scratch using Visual Studio Code with Angular CLI, use the instructions below. Enjoy your modules!
 
-![](images/custom-angular-modules-wire-thumb.png)
+![](images/custom-angular-module-spiral-thumb.png)
 
 # How to Create a Custom Angular Module
 
