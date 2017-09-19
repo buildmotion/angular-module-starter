@@ -4,8 +4,8 @@
   "description": "asdf",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "ngc-build": "ngc -p ./tsconfig-ngc.json"
+    "transpile": "ngc",
+    "build": "npm run transpile"
   },
   "repository": {
     "type": "git",
